@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "Likith | Portfolio",
+    "description": "Personal portfolio website"
+  },
+  "hero": {
+    "eyebrow": "Hi, I'm",
+    "name": "Likith G",
+    "role": "AIML Engineering Student",
+    "intro": "AIML engineering student focused on building practical ML and deep learning solutions.",
+    "primaryCta": { "label": "View Projects", "href": "#projects" },
+    "secondaryCta": { "label": "Contact", "href": "#contact" },
+    "quickLinks": [
+      { "label": "GitHub", "href": "https://github.com/LikithG" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/likith-g-001664202/" }
+    ],
+    "profileImage": {
+      "src": "images/profile1.jpeg",
+      "alt": "Likith G profile photo"
+    }
+  },
+  "about": {
+    "paragraphs": [
+      "I'm Likith G, an Artificial Intelligence and Machine Learning engineering student who enjoys building practical solutions using machine learning, deep learning, and NLP.",
+      "I like working on end-to-end projects—from data preparation and model building to creating a simple interface that makes the solution usable.",
+      "My recent work includes Resume Detection using Generative AI with sentiment analysis, and Rice Crop Disease Detection using deep learning for early identification from images.",
+      "I'm actively improving my skills in deep learning, computer vision, and deploying ML projects, and I'm open to internships and collaborative opportunities."
+    ],
+    "education": {
+      "title": "Bachelor of Engineering",
+      "school": "Canara Engineering College, Mangalore",
+      "detail": "Artificial Intelligence and Machine Learning"
+    },
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ]
+  },
+  "projects": {
+    "lead": "A few projects I've built recently.",
+    "items": [
+      {
+        "title": "Resume Detection using Generative AI & Sentiment Analysis",
+        "description": "Built a system to analyze resumes using Generative AI techniques and sentiment analysis to extract insights and improve screening quality.",
+        "image": { "src": "images/gen.jpeg", "alt": "Resume detection project preview" },
+        "tech": ["Python", "NLP", "Generative AI", "Sentiment Analysis"],
+        "links": []
+      },
+      {
+        "title": "Rice Crop Disease Detection using Deep Learning",
+        "description": "Developed a deep learning model to detect rice crop diseases from images to support early identification and improve crop health outcomes.",
+        "image": { "src": "images/rice.jpeg", "alt": "Rice crop disease detection project preview" },
+        "tech": ["Python", "Deep Learning", "Computer Vision"],
+        "links": []
+      }
+    ]
+  },
+  "contact": {
+    "lead": "Want to collaborate or talk about opportunities? Reach out.",
+    "email": "likhithacharya04@gmail.com",
+    "location": "Bangalore, India",
+    "social": [
+      { "label": "GitHub", "href": "https://github.com/LikithG" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/likith-g-001664202/" }
+    ]
+  }
+}
+

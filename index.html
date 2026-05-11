@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="Personal portfolio website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <nav>
+
+            <a class="logo" href="#home" aria-label="Go to home">Portfolio</a>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="darkModeBtn" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+                Dark
+            </button>
+
+        </nav>
+
+    </header>
+
+    <!-- Home Section -->
+
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <p class="eyebrow" id="heroEyebrow">Hi, I'm</p>
+            <h1 id="heroName">Your Name</h1>
+
+            <p class="subtitle" id="heroRole">Your Role</p>
+
+            <p class="intro" id="heroIntro">
+                A short 1–2 line intro about what you do and what you’re looking for.
+            </p>
+
+            <div class="cta-row">
+                <a href="#projects" class="project-btn" id="primaryCta">View Projects</a>
+                <a href="#contact" class="ghost-btn" id="secondaryCta">Contact</a>
+            </div>
+
+            <div class="quick-links" id="quickLinks" aria-label="Quick links"></div>
+
+        </div>
+
+        <div class="home-image">
+
+            <img id="profileImage" src="images/profile1.jpeg" alt="Profile photo">
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <div class="about-content">
+
+        <p id="aboutParagraph1"></p>
+        <p id="aboutParagraph2"></p>
+        <p id="aboutParagraph3"></p>
+        <p id="aboutParagraph4"></p>
+
+    </div>
+
+    <!-- Education -->
+
+    <div class="education">
+
+        <h3>Education</h3>
+
+        <div class="edu-card" id="educationCard">
+
+            <h4 id="educationTitle">Your degree</h4>
+
+            <p id="educationSchool">Your school</p>
+
+            <p id="educationDetail">Your specialization</p>
+
+        </div>
+
+    </div>
+
+    <!-- Skills -->
+
+    <div class="skills-section">
+
+        <h3>Technical Skills</h3>
+
+        <div class="skills" id="skillsList"></div>
+
+    </div>
+
+</section>
+    <!-- Projects Section -->
+
+<section id="projects" class="projects">
+
+    <h2>Projects</h2>
+
+    <p class="section-lead" id="projectsLead"></p>
+    <div class="projects-grid" id="projectsGrid" aria-label="Projects list"></div>
+
+</section>
+
+   <!-- Contact Section -->
+
+<section id="contact" class="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p class="contact-description" id="contactLead"></p>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+
+            <h3>Email</h3>
+
+            <p id="contactEmail"></p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <h3>Location</h3>
+
+            <p id="contactLocation"></p>
+
+        </div>
+
+    </div>
+
+    <div class="social-links" id="socialLinks"></div>
+
+</section>
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
